@@ -9,8 +9,9 @@ namespace: newrelic-system
 namePrefix: newrelic-kubernetes-operator-
 
 # Labels to add to all resources and selectors.
-#commonLabels:
-#  someName: someValue
+commonLabels:
+  team: observability
+
 
 bases:
 - ../crd
